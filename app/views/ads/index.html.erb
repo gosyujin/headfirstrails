@@ -1,12 +1,6 @@
-<html>
-  <head>
-  </head>
-  <body>
-    <h1>Welcome</h1>
-    <ul>
-    <% @ads.each do |ad| %>
-      <li><a href='/ads/<%= ad.id %>'><%= ad.name %></a></li>
-    <% end %>
-    </ul>
-  </body>
-</html>
+<h1>Welcome</h1>
+<ul>
+<% @ads.each do |ad| %>
+  <li><a href='/ads/<%= ad.id %>'><%= ad.name %></a></li>
+<% end %>
+</ul>
