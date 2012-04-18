@@ -15,4 +15,5 @@
 /tmp
 
 # Other
+Gemfile.lock
 /vendor/bundle
