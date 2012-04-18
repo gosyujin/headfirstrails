@@ -2,6 +2,7 @@ Headfirstrails::Application.routes.draw do
   resources :events
   resources :tickets
 
+  match 'ads' => 'ads#index'
   match 'ads/:id' => 'ads#show'
 
   # The priority is based upon order of creation:
